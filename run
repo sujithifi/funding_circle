@@ -1,0 +1,8 @@
+#! /usr/bin/env ruby
+
+$: << File.dirname(__FILE__)
+
+require 'lib/integer'
+require 'lib/prime'
+
+Prime.generate_prime_table 10
