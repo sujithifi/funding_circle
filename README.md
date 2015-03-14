@@ -16,6 +16,7 @@ Run Tests
 ---------
 
 * `bin/rspec --format doc`
+* BDD was followed.
 
 Output
 ------
