@@ -15,8 +15,7 @@ Run Program
 Run Tests
 ---------
 
-* `bin/rspec --format doc`
-* BDD was followed.
+* `bin/rspec --format doc` ( test cases written as a part of BDD )
 
 Output
 ------
