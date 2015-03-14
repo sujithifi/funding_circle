@@ -2,9 +2,14 @@
 
 $: << File.dirname(__FILE__)
 
+require 'lib/data_error'
 require 'lib/integer'
 require 'lib/prime'
 
-n = ARGV.first.to_i 
+n = ARGV.first
+
+n = n.nil? ? 10 : n.to_i
+
+raise DataError, "n should be >= 1!" if n < 1
 
 Prime.generate_prime_table(n < 1 ? 10 : n )
