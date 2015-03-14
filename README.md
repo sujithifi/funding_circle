@@ -43,5 +43,5 @@ Further Improvements
 --------------------
 
 * Since the multiplication table is a symmetrix matrix, the number of calculations can be halved by storing the multiplication results. There will be a trade off between memory consumption and compute power.
-* The method `is_prime?` that detects if a number is prime or not, can be further optimized. As an example a "primality regex" can be used to detect primality of a number discussed [here.](http://montreal.pm.org/tech/neil_kandalgaonkar.shtml)
+* The method `is_prime?` that detects if a number is prime or not, can be further optimized. As an example a "primality regex" can be used to detect primality of a number as discussed [here.](http://montreal.pm.org/tech/neil_kandalgaonkar.shtml)
 
