@@ -1,4 +1,4 @@
-Prime Number Table Generator
+iPrime Number Table Generator
 ============================
 
 This program prints out a multiplication table of the first 10 prime numbers.
@@ -9,7 +9,8 @@ Run Program
 -----------
 
 * `bundle install --binstubs`
-* `./run` 
+* `./run`   ( for multiplication table with 10 prime numbers )
+* `./run n` ( for multiplication table with n  prime numbers )
 
 Run Tests
 ---------

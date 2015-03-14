@@ -5,4 +5,6 @@ $: << File.dirname(__FILE__)
 require 'lib/integer'
 require 'lib/prime'
 
-Prime.generate_prime_table 10
+n = ARGV.first.to_i 
+
+Prime.generate_prime_table(n < 1 ? 10 : n )
